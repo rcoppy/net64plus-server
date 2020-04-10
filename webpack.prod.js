@@ -33,7 +33,7 @@ module.exports = [
     },
     externals: [require('webpack-node-externals')()],
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.ts$/,
           exclude: /node_modules/,
