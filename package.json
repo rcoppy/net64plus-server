@@ -1,6 +1,9 @@
 {
   "name": "net64plus-server",
   "version": "2.2.5",
+  "engines": {
+    "node": "10.x"
+  },
   "compatVersion": "1.0",
   "description": "Net64+ Dedicated Server",
   "main": "dist/index.js",
