@@ -15,7 +15,8 @@
     "compile": "npm run build:compile && node ./build",
     "lint": "eslint src/ --ext ts",
     "test": "jest",
-    "changelog": "node ./changelog-gen.js"
+    "changelog": "node ./changelog-gen.js",
+    "postinstall": "cd client && npm install"
   },
   "repository": {
     "type": "git",
@@ -107,6 +108,7 @@
     "typescript": "^2.9",
     "typescript-eslint-parser": "^13.0.0",
     "webpack": "^3.6.0",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^1.7.2",
+    "postinstall": "*"
   }
 }
