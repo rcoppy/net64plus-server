@@ -16,7 +16,7 @@
     "lint": "eslint src/ --ext ts",
     "test": "jest",
     "changelog": "node ./changelog-gen.js",
-    "heroku-postbuild": "yarn install --production=false"
+    "heroku-prebuild": "npm config set python $(which python2)"
   },
   "repository": {
     "type": "git",
