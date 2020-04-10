@@ -72,6 +72,7 @@
     "protobufjs": "^6.8.8",
     "uws": "^9.14.0",
     "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
     "xss": "^1.0.6"
   },
   "devDependencies": {
