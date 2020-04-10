@@ -73,6 +73,7 @@
     "uws": "^9.14.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2",
     "xss": "^1.0.6"
   },
   "devDependencies": {
@@ -109,7 +110,6 @@
     "standard-changelog": "^2.0.21",
     "ts-jest": "^22.0.4",
     "typescript": "^2.9",
-    "typescript-eslint-parser": "^13.0.0",
-    "webpack-node-externals": "^1.7.2"
+    "typescript-eslint-parser": "^13.0.0"
   }
 }
