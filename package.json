@@ -16,7 +16,7 @@
     "lint": "eslint src/ --ext ts",
     "test": "jest",
     "changelog": "node ./changelog-gen.js",
-    "postinstall": "cd client && npm install"
+    "postinstall": "npm install"
   },
   "repository": {
     "type": "git",
