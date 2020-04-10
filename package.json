@@ -16,7 +16,6 @@
     "lint": "eslint src/ --ext ts",
     "test": "jest",
     "changelog": "node ./changelog-gen.js",
-    "postinstall": "npm install",
     "heroku-prebuild": "npm install --dev"
   },
   "repository": {
